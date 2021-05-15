@@ -1,3 +1,11 @@
+import React from 'react'
+
 export default function Primeiro () {
-    return 'Primeiro Component Mais novo'
+    const msg = 'Seja bem vindo!'
+    return (
+        <div>
+            <h2>Primeiro Component</h2>
+            <p>{ msg }</p>
+        </div>
+    )
 }
