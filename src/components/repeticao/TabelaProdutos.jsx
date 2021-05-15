@@ -18,12 +18,14 @@ export default (props) => {
     return (
 		<div className="TabelaProdutos">
 			<table border="0">
-                <tr>
-                    <th>Id</th>
-                    <th>Produto</th>
-                    <th>Preço</th>
-                </tr>
-                {produtosTr}
+                <thead>
+                    <td>Id</td>
+                    <td>Produto</td>
+                    <td>Preço</td>
+                </thead>
+                <tbody>
+                    {produtosTr}
+                </tbody>
             </table>
 		</div>
 	);
