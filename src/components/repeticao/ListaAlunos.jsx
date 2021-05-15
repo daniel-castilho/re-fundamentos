@@ -12,7 +12,7 @@ export default (props) => {
 
 	return (
 		<div>
-			<ul>
+			<ul style={{ listStyle: "none"}}>
 				{alunosLi}
 			</ul>
 		</div>
