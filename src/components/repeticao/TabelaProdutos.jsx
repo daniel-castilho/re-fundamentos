@@ -7,7 +7,7 @@ export default (props) => {
 
     const produtosTr = produtos.map((produto, index) => {
         return (
-            <tr key={produto.id} className={index % 2 == 0 ? 'Par' : 'Impar'}>
+            <tr key={produto.id} className={index % 2 === 0 ? 'Par' : 'Impar'}>
                 <td>{produto.id}</td>
                 <td>{produto.nome}</td>
                 <td>CAD$ {produto.preco}</td>
